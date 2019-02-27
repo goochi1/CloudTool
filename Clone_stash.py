@@ -4,7 +4,7 @@ import sys
 import os
 
 
-stash = stashy.connect("https://stash.customappsteam.co.uk/", "", "")
+stash = stashy.connect("https://stash.**.co.uk/", "", "")
 pro = stash.projects.list()
 
 vod  = stash.projects[''].repos.list()
